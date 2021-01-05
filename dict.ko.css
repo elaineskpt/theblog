@@ -58,6 +58,14 @@ a.action.load-more::before {
   content: '사이트 내 검색';
 }
 
+.filter #products button::before {
+  content: '제품';
+}
+
+.filter #industries button::before {
+  content: '산업';
+}
+
 .topic-page .dropdown-menu .search input::after  {
   content: "검색";
 }
